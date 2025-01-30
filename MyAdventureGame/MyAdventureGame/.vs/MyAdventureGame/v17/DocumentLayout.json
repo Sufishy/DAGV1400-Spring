@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\suvis\\Scripting\\CleanRepo\\DAGV1400-Spring\\MyAdventureGame\\MyAdventureGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3ED67231-0DAF-0086-722A-8BA203191127}|Assembly-CSharp.csproj|c:\\users\\suvis\\scripting\\cleanrepo\\dagv1400-spring\\myadventuregame\\myadventuregame\\assets\\scripts\\testscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ED67231-0DAF-0086-722A-8BA203191127}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\testscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TestScript.cs",
+              "DocumentMoniker": "C:\\Users\\suvis\\Scripting\\CleanRepo\\DAGV1400-Spring\\MyAdventureGame\\MyAdventureGame\\Assets\\Scripts\\TestScript.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TestScript.cs",
+              "ToolTip": "C:\\Users\\suvis\\Scripting\\CleanRepo\\DAGV1400-Spring\\MyAdventureGame\\MyAdventureGame\\Assets\\Scripts\\TestScript.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TestScript.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-30T04:32:40.049Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

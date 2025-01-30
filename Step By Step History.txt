@@ -6,3 +6,6 @@ This will be a notepad to help me remember how I did everything
 	I did this through GitHub and then cloned to GitKraken
 2. Opened gitbash and typed touch .gitignore to make the gitignore file the professor said we needed
 3. Opened UnityHub and created a new project in the DAGV1400-Spring folder
+4. Changed play mode color : (Select Colors in the sidebar. Find General > Playmode Tint and click the bar or color dropper to choose the color you prefer)
+5. made jetbrains preferred IDE (https://docs.unity3d.com/Packages/com.unity.ide.rider@2.0/manual/using-the-jetbrains-rider-editor-package.html)
+6. Made a parent object by dragging "children" on top of it in the hierarchy window
