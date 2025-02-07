@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ColorCollisionRed : MonoBehaviour
 {
-    public Color newColor = Color.red;
+    public Color newColor = Color.magenta;
     
     void OnCollisionEnter(Collision collision)
     {
