@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class Shrinkage : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public float shrinkFactor = 0.9f;
 
-    // Update is called once per frame
-    void Update()
+    void OnCollisionEnter(Collision collision)
     {
-        
+        transform.localScale *= shrinkFactor;
     }
+    
 }

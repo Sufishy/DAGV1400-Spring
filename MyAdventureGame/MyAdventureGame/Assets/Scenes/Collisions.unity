@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 7546823}
   - component: {fileID: 7546822}
   - component: {fileID: 7546828}
+  - component: {fileID: 7546829}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -293,6 +294,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceForce: 3
+--- !u!114 &7546829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7546821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03a6e124f21d3b04eafb24f89b3b7507, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shrinkFactor: 0.9
 --- !u!1 &169451952
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,6 +321,7 @@ GameObject:
   - component: {fileID: 169451954}
   - component: {fileID: 169451953}
   - component: {fileID: 169451958}
+  - component: {fileID: 169451959}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -440,6 +455,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bounceForce: 3
+--- !u!114 &169451959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 169451952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26792b52d0a6ad645b745796ec02751e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!1 &962524835
 GameObject:
   m_ObjectHideFlags: 0

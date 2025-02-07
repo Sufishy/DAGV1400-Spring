@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Shrinkage.cs" />
+    <Compile Include="Assets\Scripts\ColorCollisionRed.cs" />
     <Compile Include="Assets\Scripts\TransformController.cs" />
     <Compile Include="Assets\Scripts\BouncyFlouncy.cs" />
     <Compile Include="Assets\Scripts\Forces.cs" />
