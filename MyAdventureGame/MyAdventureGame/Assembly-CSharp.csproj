@@ -45,7 +45,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.55f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Shrinkage.cs" />
     <Compile Include="Assets\Scripts\TransformController.cs" />
+    <Compile Include="Assets\Scripts\BouncyFlouncy.cs" />
     <Compile Include="Assets\Scripts\Forces.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.55f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
