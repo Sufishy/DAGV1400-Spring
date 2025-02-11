@@ -30,6 +30,7 @@ public class SimpleCharacterController : MonoBehaviour
     
     private void KeepCharacterOnXAxis()
     {
+        //var currentPosition:Vector3 = thisTransform.position; is broken
         Vector3 currentPosition = thisTransform.position; // Fixed here
         currentPosition.z = 0f;
         thisTransform.position = currentPosition;
