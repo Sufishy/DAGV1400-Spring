@@ -20,6 +20,28 @@ public class CharacterAnimationController : MonoBehaviour
 
     private void HandleAnimations()
     {
+        // Hasndle running and Idling
+        if (Input.GetAxis("Horizontal") != 0)
+        {
+            animator.SetTrigger("Run");
+        }
+        else
+        {
+            animator.SetTrigger("Idle");
+        }
+        
+        //Handle Jumping
+        if (Input.GetButtonDown("Jump"))
+        {
+            animator.SetTrigger("Hop");
+        }
+        
+        // Handle Wall jumping
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            animator.SetTrigger("WallJump");
+        }
+            
         //Triggers the Double Jump Animation
         if (Input.GetButtonDown("Jump"))
         {
