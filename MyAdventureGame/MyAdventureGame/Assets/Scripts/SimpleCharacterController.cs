@@ -24,19 +24,20 @@ public class SimpleCharacterController : MonoBehaviour
         MoveCharacter();
         ApplyGravity();
         KeepCharacterOnXAxis();
+        
+        // Got character to move vertical by placing this string in Update
+        if (Input.GetButtonDown("Jump") && controller.isGrounded)
+        {
+            velocity.y = Mathf.Sqrt(jumpForce * -0.5f * gravity);
+        }
     }
 
     private void MoveCharacter()
     {
        float moveInput = Input.GetAxis("Horizontal"); // fixed by making it float?
-       Vector3 move = new Vector3(moveInput * moveSpeed, 0f, 0f) * Time.deltaTime; // Fixed?
+       Vector3 move = new Vector3(moveInput * moveSpeed, 1f, 0f) * Time.deltaTime; // Fixed?
        controller.Move(move);
-        
-        //Jumping
-        if (Input.GetButtonDown("Jump") && controller.isGrounded)
-        {
-            velocity.y = Mathf.Sqrt(jumpForce * -2f * gravity);
-        }
+       
     }
 
     private void ApplyGravity()
