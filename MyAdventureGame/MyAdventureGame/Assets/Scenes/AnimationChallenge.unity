@@ -932,12 +932,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6932700144291273165, guid: 7cec1aaa8adc517459b79298d6dccd60, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6932700144291273165, guid: 7cec1aaa8adc517459b79298d6dccd60, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 7293598183456022363, guid: 1ddc9afd21fec77489b1248d18f31b68, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 6932700144291273165, guid: 7cec1aaa8adc517459b79298d6dccd60, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2

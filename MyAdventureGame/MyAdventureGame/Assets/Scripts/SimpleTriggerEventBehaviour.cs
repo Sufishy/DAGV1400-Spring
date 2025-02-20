@@ -13,5 +13,13 @@ public class SimpleTriggerEventBehaviour : MonoBehaviour
         // this triggers the event
         triggerEvent.Invoke();
         Debug.Log("Player Interacted With Object. Nice");
+        
+        Animator animator = other.GetComponent<Animator>();
+
+        if (animator != null)
+        {
+            animator.SetTrigger("Hit"); // Trigger hit animation
+            Debug.Log(other.name + " hit the spikes!");
+        }
     }
 }
