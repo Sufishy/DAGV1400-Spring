@@ -364,6 +364,7 @@
 "Assets/Scripts/Forces.cs"
 "Assets/Scripts/Shrinkage.cs"
 "Assets/Scripts/SimpleCharacterController.cs"
+"Assets/Scripts/SimpleTriggerEventBehaviour.cs"
 "Assets/Scripts/TransformController.cs"
 -langversion:9.0
 /deterministic
