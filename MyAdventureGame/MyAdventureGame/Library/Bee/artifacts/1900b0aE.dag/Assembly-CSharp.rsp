@@ -362,6 +362,7 @@
 "Assets/Scripts/ColorCollisionRed.cs"
 "Assets/Scripts/FlipTransformBehaviour.cs"
 "Assets/Scripts/Forces.cs"
+"Assets/Scripts/HealthContainer.cs"
 "Assets/Scripts/Shrinkage.cs"
 "Assets/Scripts/SimpleCharacterController.cs"
 "Assets/Scripts/SimpleFloatData.cs"

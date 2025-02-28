@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\SimpleFloatData.cs" />
+    <Compile Include="Assets\Scripts\HealthContainer.cs" />
     <Compile Include="Assets\Scripts\SimpleImageBehaviour.cs" />
     <Compile Include="Assets\Scripts\SimpleTriggerEventBehaviour.cs" />
     <Compile Include="Assets\Scripts\Shrinkage.cs" />
