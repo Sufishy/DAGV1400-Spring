@@ -125,7 +125,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  damageAmount: 10
+  damageAmount: 0
 --- !u!65 &521539354974814354
 BoxCollider:
   m_ObjectHideFlags: 0
