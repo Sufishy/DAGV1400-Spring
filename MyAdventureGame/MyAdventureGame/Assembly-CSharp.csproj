@@ -51,9 +51,11 @@
     <Compile Include="Assets\Scripts\SimpleTriggerEventBehaviour.cs" />
     <Compile Include="Assets\Scripts\Shrinkage.cs" />
     <Compile Include="Assets\Scripts\FlipTransformBehaviour.cs" />
+    <Compile Include="Assets\Scripts\XPBarFiller.cs" />
     <Compile Include="Assets\Scripts\ColorCollisionRed.cs" />
     <Compile Include="Assets\Scripts\SimplePlayerHealth.cs" />
     <Compile Include="Assets\Scripts\TransformController.cs" />
+    <Compile Include="Assets\Scripts\XPContainerScript.cs" />
     <Compile Include="Assets\Scripts\BouncyFlouncy.cs" />
     <Compile Include="Assets\Scripts\SimpleCharacterController.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />

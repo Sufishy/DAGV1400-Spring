@@ -370,6 +370,8 @@
 "Assets/Scripts/SimplePlayerHealth.cs"
 "Assets/Scripts/SimpleTriggerEventBehaviour.cs"
 "Assets/Scripts/TransformController.cs"
+"Assets/Scripts/XPBarFiller.cs"
+"Assets/Scripts/XPContainerScript.cs"
 -langversion:9.0
 /deterministic
 /optimize+
