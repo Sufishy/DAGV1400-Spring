@@ -8,6 +8,7 @@ public class SimpleTriggerEventBehaviour : MonoBehaviour
 {
     public UnityEvent triggerEvent;
     public int damageAmount = 10; //How much damage is dealt
+    public int scoreIncreaseAmount = 1;
 
     private void OnTriggerEnter(Collider other)
     {
