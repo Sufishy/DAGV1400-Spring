@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\BouncyFlouncy.cs" />
     <Compile Include="Assets\Scripts\SimpleCharacterController.cs" />
     <Compile Include="Assets\Scripts\SimpleTextMeshProBehaviour.cs" />
+    <Compile Include="Assets\Scripts\StrawberryAnimationController.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />
     <Compile Include="Assets\Scripts\Forces.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

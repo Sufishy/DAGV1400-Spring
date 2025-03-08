@@ -371,6 +371,7 @@
 "Assets/Scripts/SimplePlayerHealth.cs"
 "Assets/Scripts/SimpleTextMeshProBehaviour.cs"
 "Assets/Scripts/SimpleTriggerEventBehaviour.cs"
+"Assets/Scripts/StrawberryAnimationController.cs"
 "Assets/Scripts/TransformController.cs"
 "Assets/Scripts/XPBarFiller.cs"
 "Assets/Scripts/XPContainerScript.cs"
