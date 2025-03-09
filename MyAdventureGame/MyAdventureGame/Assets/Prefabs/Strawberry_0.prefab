@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3634002601327433108}
   - component: {fileID: 2001681790007307956}
   - component: {fileID: 5258079018467136700}
+  - component: {fileID: 4472039550009234563}
   m_Layer: 0
   m_Name: Strawberry_0
   m_TagString: Untagged
@@ -157,3 +158,16 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   damageAmount: 10
+  scoreIncreaseAmount: 1
+--- !u!114 &4472039550009234563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815198059530221001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 946fefe026ee95e4b8a2ca362f090349, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
