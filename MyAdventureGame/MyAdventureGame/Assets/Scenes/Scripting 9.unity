@@ -1745,10 +1745,6 @@ PrefabInstance:
       value: Spikes
       objectReference: {fileID: 0}
     - target: {fileID: 6932700144291273165, guid: 7cec1aaa8adc517459b79298d6dccd60, type: 3}
-      propertyPath: damageAmount
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6932700144291273165, guid: 7cec1aaa8adc517459b79298d6dccd60, type: 3}
       propertyPath: triggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1935306328}
