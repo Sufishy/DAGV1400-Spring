@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\XPContainerScript.cs" />
     <Compile Include="Assets\Scripts\BouncyFlouncy.cs" />
     <Compile Include="Assets\Scripts\SimpleCharacterController.cs" />
+    <Compile Include="Assets\Scripts\MusicControl.cs" />
     <Compile Include="Assets\Scripts\SimpleTextMeshProBehaviour.cs" />
     <Compile Include="Assets\Scripts\StrawberryAnimationController.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />

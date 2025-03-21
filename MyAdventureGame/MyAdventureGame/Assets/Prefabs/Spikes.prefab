@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 1029983912585565366}
   - component: {fileID: 6932700144291273165}
   - component: {fileID: 521539354974814354}
-  - component: {fileID: 3351529873101346590}
-  - component: {fileID: 7588935401448072655}
+  - component: {fileID: 5291191575945807473}
+  - component: {fileID: 6935175383785296142}
   m_Layer: 0
   m_Name: Spikes
   m_TagString: Untagged
@@ -151,7 +151,7 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.16, y: 0.06881609, z: 0.2}
   m_Center: {x: 0, y: -0.045591954, z: 0}
---- !u!82 &3351529873101346590
+--- !u!82 &5291191575945807473
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -247,7 +247,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &7588935401448072655
+--- !u!114 &6935175383785296142
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
