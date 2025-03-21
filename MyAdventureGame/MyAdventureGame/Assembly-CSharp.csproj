@@ -54,6 +54,7 @@
     <Compile Include="Assets\Scripts\FlipTransformBehaviour.cs" />
     <Compile Include="Assets\Scripts\XPBarFiller.cs" />
     <Compile Include="Assets\Scripts\ColorCollisionRed.cs" />
+    <Compile Include="Assets\Scripts\VolumeControl.cs" />
     <Compile Include="Assets\Scripts\SimplePlayerHealth.cs" />
     <Compile Include="Assets\Scripts\SoundTrigger.cs" />
     <Compile Include="Assets\Scripts\TransformController.cs" />

@@ -375,6 +375,7 @@
 "Assets/Scripts/SoundTrigger.cs"
 "Assets/Scripts/StrawberryAnimationController.cs"
 "Assets/Scripts/TransformController.cs"
+"Assets/Scripts/VolumeControl.cs"
 "Assets/Scripts/XPBarFiller.cs"
 "Assets/Scripts/XPContainerScript.cs"
 -langversion:9.0
