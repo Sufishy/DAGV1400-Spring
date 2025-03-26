@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\StrawberryAnimationController.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />
     <Compile Include="Assets\Scripts\Forces.cs" />
+    <Compile Include="Assets\Scripts\TriggerParticleEffect.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
