@@ -31,7 +31,6 @@ public class SimpleTriggerEventBehaviour : MonoBehaviour
         if (playerHealth != null)
         {
             playerHealth.TakeDamage(damageAmount);
-            Debug.Log("Player hit the spikes, and took " + damageAmount + " damage. Ouch.");
         }
     }
 }
