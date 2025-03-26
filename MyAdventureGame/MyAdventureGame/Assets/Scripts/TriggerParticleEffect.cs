@@ -11,6 +11,7 @@ public class TriggerParticleEffect : MonoBehaviour
     private void Start()
     {
         particleSystem = GetComponent<ParticleSystem>();
+        particleSystem.Stop(); // fix for particles playing at beginning
     }
 
     private void OnTriggerEnter(Collider other)
