@@ -53,6 +53,8 @@
     <Compile Include="Assets\Scripts\Shrinkage.cs" />
     <Compile Include="Assets\Scripts\FlipTransformBehaviour.cs" />
     <Compile Include="Assets\Scripts\XPBarFiller.cs" />
+    <Compile Include="Assets\Scripts\Scene 11\AttachOnTrigger.cs" />
+    <Compile Include="Assets\Scripts\Scene 11\SimpleIDMatchBehaviour.cs" />
     <Compile Include="Assets\Scripts\ColorCollisionRed.cs" />
     <Compile Include="Assets\Scripts\VolumeControl.cs" />
     <Compile Include="Assets\Scripts\SimplePlayerHealth.cs" />
@@ -64,10 +66,11 @@
     <Compile Include="Assets\Scripts\MusicControl.cs" />
     <Compile Include="Assets\Scripts\SimpleTextMeshProBehaviour.cs" />
     <Compile Include="Assets\Scripts\StrawberryAnimationController.cs" />
-    <Compile Include="Assets\Scripts\ScriptableObject.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />
     <Compile Include="Assets\Scripts\Forces.cs" />
+    <Compile Include="Assets\Scripts\Scene 11\ScriptableObject.cs" />
     <Compile Include="Assets\Scripts\TriggerParticleEffect.cs" />
+    <Compile Include="Assets\Scripts\Scene 11\SimpleIDBehaviour.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
