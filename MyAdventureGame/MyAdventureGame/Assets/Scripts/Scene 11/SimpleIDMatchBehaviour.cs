@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -7,20 +5,32 @@ public class SimpleIDMatchBehaviour : MonoBehaviour
 {
     public Id id;
     public UnityEvent matchEvent, noMatchEvent;
+    private Animator animator;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>(); // Get Animator from Fire Object
+    }
 
     private void OnTriggerEnter(Collider other)
     {
         var otherID = other.GetComponent<SimpleIDBehaviour>();
 
-        if (otherID.id == id)
+        if (otherID != null && otherID.id == id)
         {
-            matchEvent.Invoke();
             Debug.Log("Matched ID: " + id);
+            matchEvent.Invoke();
+            
+            // Play the "Deactivate" animation
+            if (animator != null)
+            {
+                animator.SetTrigger("Deactivate");
+            }
         }
         else
         {
-            noMatchEvent.Invoke();
             Debug.Log("No Match: " + id);
+            noMatchEvent.Invoke();
         }
     }
 }
