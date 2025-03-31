@@ -364,6 +364,7 @@
 "Assets/Scripts/Forces.cs"
 "Assets/Scripts/HealthContainer.cs"
 "Assets/Scripts/MusicControl.cs"
+"Assets/Scripts/ScriptableObject.cs"
 "Assets/Scripts/Shrinkage.cs"
 "Assets/Scripts/SimpleCharacterController.cs"
 "Assets/Scripts/SimpleFloatData.cs"

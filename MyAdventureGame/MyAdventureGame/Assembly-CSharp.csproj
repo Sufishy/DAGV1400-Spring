@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\MusicControl.cs" />
     <Compile Include="Assets\Scripts\SimpleTextMeshProBehaviour.cs" />
     <Compile Include="Assets\Scripts\StrawberryAnimationController.cs" />
+    <Compile Include="Assets\Scripts\ScriptableObject.cs" />
     <Compile Include="Assets\Scripts\CharacterAnimationController.cs" />
     <Compile Include="Assets\Scripts\Forces.cs" />
     <Compile Include="Assets\Scripts\TriggerParticleEffect.cs" />
