@@ -366,6 +366,7 @@
 "Assets/Scripts/MusicControl.cs"
 "Assets/Scripts/Scene 11/AttachOnTrigger.cs"
 "Assets/Scripts/Scene 11/ScriptableObject.cs"
+"Assets/Scripts/Scene 11/SimpleFIreAnimation.cs"
 "Assets/Scripts/Scene 11/SimpleIDBehaviour.cs"
 "Assets/Scripts/Scene 11/SimpleIDMatchBehaviour.cs"
 "Assets/Scripts/Shrinkage.cs"

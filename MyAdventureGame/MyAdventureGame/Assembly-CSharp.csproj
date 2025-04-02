@@ -50,6 +50,7 @@
     <Compile Include="Assets\Scripts\HealthContainer.cs" />
     <Compile Include="Assets\Scripts\SimpleImageBehaviour.cs" />
     <Compile Include="Assets\Scripts\SimpleTriggerEventBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Scene 11\SimpleFIreAnimation.cs" />
     <Compile Include="Assets\Scripts\Shrinkage.cs" />
     <Compile Include="Assets\Scripts\FlipTransformBehaviour.cs" />
     <Compile Include="Assets\Scripts\XPBarFiller.cs" />
