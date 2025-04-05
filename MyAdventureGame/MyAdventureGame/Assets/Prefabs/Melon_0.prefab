@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 138295842979875962}
   - component: {fileID: 1360892527799803614}
   - component: {fileID: 16511532695583918}
+  - component: {fileID: 3999916904290775917}
   m_Layer: 0
   m_Name: Melon_0
   m_TagString: Untagged
@@ -141,4 +142,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bcbfa5e8a00aa4c83076494a1383e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: {fileID: 11400000, guid: 6939a42aaf45c834d90fd5e365c8b307, type: 2}
+  id: {fileID: 11400000, guid: c3dee2b18c2b8814b85793441468d735, type: 2}
+--- !u!114 &3999916904290775917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4628418767913127885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e43c558bd6b7734281404bbeb207246, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  damageAmount: 10
+  scoreIncreaseAmount: 1
+  shrinkScale: {x: 0.5, y: 0.5, z: 0.5}

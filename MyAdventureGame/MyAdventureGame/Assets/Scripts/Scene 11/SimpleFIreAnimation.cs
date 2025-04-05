@@ -3,21 +3,21 @@ using UnityEngine;
 public class FireAnimationController : MonoBehaviour
 {
     private Animator animator;
-    private BoxCollider2D damageCollider;
+    private BoxCollider damageCollider; // ← this is for 3D!
 
     void Start()
     {
         animator = GetComponent<Animator>();
-        damageCollider = GetComponent<BoxCollider2D>();
+        damageCollider = GetComponent<BoxCollider>();
 
-        // ✅ Ensure Fire starts active
+        // Fire starts active
         animator.Play("FireActive");
         damageCollider.enabled = true;
     }
 
     public void DeactivateFire()
     {
-        animator.SetTrigger("StopFire"); // Transitions to FireDeactivate animation
-        damageCollider.enabled = false; // Disable damage when fire stops
+        animator.SetTrigger("StopFire"); // Trigger FireDeactivate animation
+        damageCollider.enabled = false;  // Disable damage collider
     }
 }
