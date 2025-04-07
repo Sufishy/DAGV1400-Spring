@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2bcbfa5e8a00aa4c83076494a1383e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  id: {fileID: 11400000, guid: c3dee2b18c2b8814b85793441468d735, type: 2}
+  id: {fileID: 11400000, guid: 3a3c7b57c1098804abcd0e34d71bf4ca, type: 2}
 --- !u!114 &3999916904290775917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +158,6 @@ MonoBehaviour:
   triggerEvent:
     m_PersistentCalls:
       m_Calls: []
-  damageAmount: 10
+  damageAmount: 0
   scoreIncreaseAmount: 1
   shrinkScale: {x: 0.5, y: 0.5, z: 0.5}

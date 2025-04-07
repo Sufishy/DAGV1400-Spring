@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 810964236842330116}
   - component: {fileID: 7890420266044177093}
   - component: {fileID: 4441946558322274596}
-  - component: {fileID: 3334015317334427483}
   - component: {fileID: 6009502557896296869}
   m_Layer: 0
   m_Name: Fire
@@ -130,37 +129,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.16, y: 0.32, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3334015317334427483
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3843030686259663435}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa874a33e7afcce44852bf7ab7f98062, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: {fileID: 11400000, guid: 6939a42aaf45c834d90fd5e365c8b307, type: 2}
-  matchEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6009502557896296869}
-        m_TargetAssemblyTypeName: SimpleFIreAnimation, Assembly-CSharp
-        m_MethodName: DeactivateFire
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  noMatchEvent:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &6009502557896296869
 MonoBehaviour:
   m_ObjectHideFlags: 0
