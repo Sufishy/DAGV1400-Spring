@@ -373,6 +373,7 @@
 "Assets/Scripts/Scene 11/SimpleFIreAnimation.cs"
 "Assets/Scripts/Scene 11/SimpleIDBehaviour.cs"
 "Assets/Scripts/Scene 11/SimpleIDMatchBehaviour.cs"
+"Assets/Scripts/Scene12/PatrolAI.cs"
 "Assets/Scripts/Scene12/SimpleNavMeshAgent.cs"
 "Assets/Scripts/Shrinkage.cs"
 "Assets/Scripts/SimpleCharacterController.cs"
