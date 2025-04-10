@@ -53,6 +53,7 @@
     <Compile Include="Assets\Scripts\Scene 11\SimpleFIreAnimation.cs" />
     <Compile Include="Assets\Scripts\Shrinkage.cs" />
     <Compile Include="Assets\Scripts\FlipTransformBehaviour.cs" />
+    <Compile Include="Assets\Scripts\Scene12\SimpleNavMeshAgent.cs" />
     <Compile Include="Assets\Scripts\XPBarFiller.cs" />
     <Compile Include="Assets\Scripts\Scene 11\AttachOnTrigger.cs" />
     <Compile Include="Assets\Scripts\Scene 11\SimpleIDMatchBehaviour.cs" />
@@ -724,23 +725,53 @@
     <Reference Include="System.Xml.Serialization">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.55f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Shared.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Core.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualScripting.Flow.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.EditorCoroutines.Editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
@@ -754,35 +785,20 @@
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.State.Editor">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Shared.Editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Core">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Core.Editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
@@ -793,11 +809,8 @@
     <Reference Include="Cinemachine">
       <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.VisualScripting.Flow">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualScripting.Flow.Editor">
-      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>C:\Users\suvis\Scripting\CleanRepo\DAGV1400-Spring\MyAdventureGame\MyAdventureGame\Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
