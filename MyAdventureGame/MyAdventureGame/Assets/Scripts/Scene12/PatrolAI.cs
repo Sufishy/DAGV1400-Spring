@@ -12,6 +12,7 @@ public class PatrolAI : MonoBehaviour
     private void Start()
     {
         agent = GetComponent<NavMeshAgent>();
+        agent.updateRotation = false; // prevents rotation
         if (waypoints.Length > 0)
         {
             agent.SetDestination(waypoints[0].position);
