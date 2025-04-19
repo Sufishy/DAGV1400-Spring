@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 4472039550009234563}
   - component: {fileID: 8851581152849718100}
   - component: {fileID: 6744315941805939511}
+  - component: {fileID: 5081182176183802365}
   m_Layer: 0
   m_Name: Strawberry_0
   m_TagString: Untagged
@@ -147,7 +148,7 @@ MonoBehaviour:
   triggerEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 7119131272651775058, guid: 4aa8da12cf7e28541bbb88cd079b3b6e, type: 3}
         m_TargetAssemblyTypeName: SimpleIntData, Assembly-CSharp
         m_MethodName: UpdateValue
         m_Mode: 3
@@ -280,5 +281,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 217aa30412cf8344ab512bef4bc20710, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5081182176183802365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1815198059530221001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d23ad69dd507c4749b244ff9ea5eece8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

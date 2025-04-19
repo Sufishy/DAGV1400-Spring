@@ -364,6 +364,7 @@
 "Assets/Scripts/BouncyFlouncy.cs"
 "Assets/Scripts/CharacterAnimationController.cs"
 "Assets/Scripts/ColorCollisionRed.cs"
+"Assets/Scripts/Destroy.cs"
 "Assets/Scripts/FlipTransformBehaviour.cs"
 "Assets/Scripts/Forces.cs"
 "Assets/Scripts/HealthContainer.cs"

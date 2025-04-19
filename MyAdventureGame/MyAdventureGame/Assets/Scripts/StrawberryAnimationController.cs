@@ -32,13 +32,13 @@ public class StrawberryAnimationController : MonoBehaviour
         {
             isCollected = true;
             animator.SetTrigger("Collected"); // Play collection animation
-            StartCoroutine(DestroyAfterAnimation());
+            //StartCoroutine(DestroyAfterAnimation());
         }
     }
 
-    private IEnumerator DestroyAfterAnimation()
-    {
-        yield return new WaitForSeconds(0.5f); // Wait for animation duration
-        Destroy(gameObject);
-    }
+   // private IEnumerator DestroyAfterAnimation()
+   // {
+    //   yield return new WaitForSeconds(0.5f); // Wait for animation duration
+    //    Destroy(gameObject);
+   // }
 }
