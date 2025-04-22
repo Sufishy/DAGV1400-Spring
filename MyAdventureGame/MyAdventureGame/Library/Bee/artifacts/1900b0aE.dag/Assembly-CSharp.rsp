@@ -369,6 +369,7 @@
 "Assets/Scripts/Forces.cs"
 "Assets/Scripts/HealthContainer.cs"
 "Assets/Scripts/MusicControl.cs"
+"Assets/Scripts/SawMovement.cs"
 "Assets/Scripts/Scene 11/AttachOnTrigger.cs"
 "Assets/Scripts/Scene 11/ScriptableObject.cs"
 "Assets/Scripts/Scene 11/SimpleFIreAnimation.cs"

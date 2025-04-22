@@ -9,7 +9,7 @@ public class SimpleTriggerEventBehaviour : MonoBehaviour
     public UnityEvent triggerEvent;
     public int damageAmount = 10; // How much damage is dealt
     public int scoreIncreaseAmount = 1;
-    public Vector3 shrinkScale = new Vector3(0.5f, 0.5f, 0.5f); // The scale to shrink to
+  //  public Vector3 shrinkScale = new Vector3(0.5f, 0.5f, 0.5f); // The scale to shrink to
 
     private void OnTriggerEnter(Collider other)
     {
@@ -17,7 +17,7 @@ public class SimpleTriggerEventBehaviour : MonoBehaviour
         triggerEvent.Invoke();
 
         // Shrink the saw on collision
-        transform.localScale = shrinkScale;
+      //  transform.localScale = shrinkScale;
 
         Animator animator = other.GetComponent<Animator>();
 
