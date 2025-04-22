@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4214527507899291687}
   - component: {fileID: 2221382948136149275}
   - component: {fileID: 8920117576340646988}
+  - component: {fileID: 5951446687363632793}
   m_Layer: 0
   m_Name: Saw
   m_TagString: Untagged
@@ -143,7 +144,44 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   triggerEvent:
     m_PersistentCalls:
-      m_Calls: []
-  damageAmount: 10
+      m_Calls:
+      - m_Target: {fileID: 8729026204408991562, guid: b7fd7a4969c8d8c48a75a2d543a16f1b, type: 3}
+        m_TargetAssemblyTypeName: HealthContainer, Assembly-CSharp
+        m_MethodName: ReduceHealth
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: -0.15
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: SimpleImageBehaviour, Assembly-CSharp
+        m_MethodName: UpdateWithFloatData
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  damageAmount: 1
   scoreIncreaseAmount: 1
-  shrinkScale: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!114 &5951446687363632793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607275104028401179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83bb1be91f1c3246a1966bc5d7b1c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveDistance: 2
+  moveSpeed: 2
