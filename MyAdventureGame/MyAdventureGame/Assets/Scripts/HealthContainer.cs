@@ -10,4 +10,9 @@ public class HealthContainer : MonoBehaviour
     {
         healthData.UpdateValue(amount);
     }
+
+    public void IncreaseHealth(float amount)
+    {
+        healthData.UpdateValue(amount);
+    }
 }
