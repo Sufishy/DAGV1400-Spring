@@ -70,6 +70,7 @@
     <Compile Include="Assets\Scripts\SimpleCharacterController.cs" />
     <Compile Include="Assets\Scripts\ButtonPress.cs" />
     <Compile Include="Assets\Scripts\MusicControl.cs" />
+    <Compile Include="Assets\Scripts\PleaseDie.cs" />
     <Compile Include="Assets\Scripts\Scene12\PatrolAI.cs" />
     <Compile Include="Assets\Scripts\PlatformR.cs" />
     <Compile Include="Assets\Scripts\SimpleTextMeshProBehaviour.cs" />

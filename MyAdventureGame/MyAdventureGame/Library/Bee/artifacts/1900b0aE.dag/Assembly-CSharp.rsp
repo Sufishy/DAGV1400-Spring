@@ -371,6 +371,7 @@
 "Assets/Scripts/HealthContainer.cs"
 "Assets/Scripts/MusicControl.cs"
 "Assets/Scripts/PlatformR.cs"
+"Assets/Scripts/PleaseDie.cs"
 "Assets/Scripts/Scene 11/AttachOnTrigger.cs"
 "Assets/Scripts/Scene 11/ScriptableObject.cs"
 "Assets/Scripts/Scene 11/SimpleFIreAnimation.cs"
