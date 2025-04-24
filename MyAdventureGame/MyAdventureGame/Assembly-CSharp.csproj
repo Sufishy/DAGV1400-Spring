@@ -57,14 +57,15 @@
     <Compile Include="Assets\Scripts\XPBarFiller.cs" />
     <Compile Include="Assets\Scripts\Scene 11\AttachOnTrigger.cs" />
     <Compile Include="Assets\Scripts\Scene 11\SimpleIDMatchBehaviour.cs" />
-    <Compile Include="Assets\Scripts\SawMovement.cs" />
     <Compile Include="Assets\Scripts\ColorCollisionRed.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\VolumeControl.cs" />
     <Compile Include="Assets\Scripts\SimplePlayerHealth.cs" />
     <Compile Include="Assets\Scripts\SoundTrigger.cs" />
+    <Compile Include="Assets\Scripts\SHorizontalMovement.cs" />
     <Compile Include="Assets\Scripts\TransformController.cs" />
     <Compile Include="Assets\Scripts\XPContainerScript.cs" />
+    <Compile Include="Assets\Scripts\SVerticalMovement.cs" />
     <Compile Include="Assets\Scripts\BouncyFlouncy.cs" />
     <Compile Include="Assets\Scripts\SimpleCharacterController.cs" />
     <Compile Include="Assets\Scripts\ButtonPress.cs" />
