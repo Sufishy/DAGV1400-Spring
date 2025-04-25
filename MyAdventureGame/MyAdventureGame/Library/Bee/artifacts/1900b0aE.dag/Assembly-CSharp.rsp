@@ -382,6 +382,7 @@
 "Assets/Scripts/Scene 11/SimpleIDMatchBehaviour.cs"
 "Assets/Scripts/Scene12/PatrolAI.cs"
 "Assets/Scripts/Scene12/SimpleNavMeshAgent.cs"
+"Assets/Scripts/ScoreReset.cs"
 "Assets/Scripts/SHorizontalMovement.cs"
 "Assets/Scripts/Shrinkage.cs"
 "Assets/Scripts/SimpleCharacterController.cs"
@@ -397,6 +398,7 @@
 "Assets/Scripts/TransformController.cs"
 "Assets/Scripts/TriggerParticleEffect.cs"
 "Assets/Scripts/VolumeControl.cs"
+"Assets/Scripts/WinTrigger.cs"
 "Assets/Scripts/XPBarFiller.cs"
 "Assets/Scripts/XPContainerScript.cs"
 -langversion:9.0

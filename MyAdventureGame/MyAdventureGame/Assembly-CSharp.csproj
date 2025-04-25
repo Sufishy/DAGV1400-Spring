@@ -61,6 +61,7 @@
     <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\Scripts\ColorCollisionRed.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
+    <Compile Include="Assets\Scripts\WinTrigger.cs" />
     <Compile Include="Assets\Scripts\VolumeControl.cs" />
     <Compile Include="Assets\Scripts\SimplePlayerHealth.cs" />
     <Compile Include="Assets\Scripts\SoundTrigger.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\MusicControl.cs" />
     <Compile Include="Assets\Scripts\PleaseDie.cs" />
     <Compile Include="Assets\Scripts\Scene12\PatrolAI.cs" />
+    <Compile Include="Assets\Scripts\ScoreReset.cs" />
     <Compile Include="Assets\Scripts\PlatformR.cs" />
     <Compile Include="Assets\Scripts\SimpleTextMeshProBehaviour.cs" />
     <Compile Include="Assets\Scripts\StrawberryAnimationController.cs" />
