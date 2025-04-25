@@ -374,6 +374,7 @@
 "Assets/Scripts/PlatformR.cs"
 "Assets/Scripts/PlayerDeath.cs"
 "Assets/Scripts/PleaseDie.cs"
+"Assets/Scripts/RestartGame.cs"
 "Assets/Scripts/Scene 11/AttachOnTrigger.cs"
 "Assets/Scripts/Scene 11/ScriptableObject.cs"
 "Assets/Scripts/Scene 11/SimpleFIreAnimation.cs"

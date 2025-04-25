@@ -58,6 +58,7 @@
     <Compile Include="Assets\Scripts\XPBarFiller.cs" />
     <Compile Include="Assets\Scripts\Scene 11\AttachOnTrigger.cs" />
     <Compile Include="Assets\Scripts\Scene 11\SimpleIDMatchBehaviour.cs" />
+    <Compile Include="Assets\Scripts\RestartGame.cs" />
     <Compile Include="Assets\Scripts\ColorCollisionRed.cs" />
     <Compile Include="Assets\Scripts\Destroy.cs" />
     <Compile Include="Assets\Scripts\VolumeControl.cs" />
